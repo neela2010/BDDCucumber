@@ -1,0 +1,214 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1488322200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the TechFios Login Page",
+            "match": {
+              "location": "StepDef.User_is_on_the_TechFios_Login_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6857509499,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.BeforeRun()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "",
+        "description": "User should be able to login with valid credentials and Add New Account",
+        "id": "techfios-bank-and-cash-new-account-functionality;;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 849278300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.afterRun()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 437380800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters the \"demo@techfios.com\" and \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 17
+                },
+                {
+                  "val": "abc123",
+                  "offset": 41
+                }
+              ],
+              "location": "StepDef.user_enters_Credentials(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1435563000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on the log in button",
+            "match": {
+              "location": "StepDef.user_clicks_on_the_log_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 824844299,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should be able to see the DashBoard Page",
+            "match": {
+              "location": "StepDef.user_should_be_able_to_see_the_DashBoard_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1102109399,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on Bank \u0026 Cash button",
+            "match": {
+              "location": "StepDef.user_clicks_on_Bank_Cash_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 639186700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks on New Account",
+            "match": {
+              "location": "StepDef.user_clicks_on_New_Account()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2670212200,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 14,
+                "value": "#Then user should be able to see the Add new account page"
+              }
+            ],
+            "line": 15,
+            "name": "User fill up the form by entering \"Savings Account\" and \"New business account\" and \"100000\" and \"9876543210000\" and \"Neela Afroze\" and \"6464520022\" and \"https://www.chase.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Savings Account",
+                  "offset": 35
+                },
+                {
+                  "val": "New business account",
+                  "offset": 57
+                },
+                {
+                  "val": "100000",
+                  "offset": 84
+                },
+                {
+                  "val": "9876543210000",
+                  "offset": 97
+                },
+                {
+                  "val": "Neela Afroze",
+                  "offset": 117
+                },
+                {
+                  "val": "6464520022",
+                  "offset": 136
+                },
+                {
+                  "val": "https://www.chase.com",
+                  "offset": 153
+                }
+              ],
+              "location": "StepDef.user_fill_up_the_form_by_enteringValuesOntheFields(String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5050958699,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks on Submit button",
+            "match": {
+              "location": "StepDef.user_clicks_on_Submit_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@NewAccount"
+          }
+        ]
+      }
+    ],
+    "name": "Techfios bank and cash New Account functionality",
+    "description": "",
+    "id": "techfios-bank-and-cash-new-account-functionality",
+    "keyword": "Feature",
+    "uri": "feature/NewAccount.feature"
+  }
+]
